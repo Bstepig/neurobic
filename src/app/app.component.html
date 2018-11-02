@@ -1,0 +1,51 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-expand-lg border-info navbar-light hidden" style="height: 10vh; background-color: #e2f7df" id="navbar">
+    <a class="navbar-brand" tabindex="-1" href="https://mindskills.online/games/" style="width: 9vh; height: 9vh;  background:url(/static/img/logo_mini_0.png) center center no-repeat; background-size: contain"></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#modal_global_settings">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="hidden" id="csrf_check">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="5egE95OCEseZIjWnIYULsnxvjd1rkwDu8VC11vuUAjoE9XZRkCBLvxQcppfz5BIw">
+                    <input type="hidden" id="check_url" value="/csrf_check">
+                </span>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" style="margin-left: 20vw">
+                <a tabindex="-1" onclick="body_code_minus();" class="nav-link btn-lg btn btn-outline-info" href="https://mindskills.online/games/neurobic/#">
+                    <i class="fa fa-lg p-2 fa-arrow-left"></i> </a>
+            </li>
+            <li class="nav-item">
+                <a id="body_code_tablo" tabindex="-1" class="nav-link body_code_tablo p-2 btn-lg btn btn-outline-info" href="https://mindskills.online/games/neurobic/#" style="width: 60px; height: 100%; font-size: 25px">1</a>
+            </li>
+            <li class="nav-item  mr-5">
+                <a tabindex="-1" onclick="body_code_plus();" class="nav-link btn-lg btn btn-outline-info" href="https://mindskills.online/games/neurobic/#">
+                    <i class="fa fa-lg p-2 fa-arrow-right"></i> </a>
+            </li>
+
+             <li class="nav-item  mr-5">
+                <a tabindex="-1" onclick="start_2();" class="nav-link button_start btn-lg btn btn-outline-success" href="https://mindskills.online/games/neurobic/#">
+                    <i class="fa fa-lg p-2 fa-play"></i></a>
+            </li>
+
+            <li class="nav-item ">
+                <a tabindex="-1" onclick="skorost_minus();" class="nav-link btn-lg btn btn-outline-danger" href="https://mindskills.online/games/neurobic/#">
+                    <i class="fa fa-lg p-2 fa-arrow-left"></i> </a>
+            </li>
+            <li class="nav-item">
+                <a id="skorost_tablo" tabindex="-1" class="nav-link skorost_tablo p-2 btn-lg btn btn-outline-danger" href="https://mindskills.online/games/neurobic/#" style="width: 60px; height: 100%; font-size: 25px">1</a>
+            </li>
+            <li class="nav-item">
+                <a tabindex="-1" onclick="skorost_plus();" class="nav-link btn-lg btn btn-outline-danger" href="https://mindskills.online/games/neurobic/#">
+                    <i class="fa fa-lg p-2 fa-arrow-right"></i> </a>
+            </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+            <div class="btn-group">
+                <a tabindex="-1" onclick="change_background()" class="btn btn-lg btn-outline-info my-2 my-sm-0"><i class="fa fa-smile-o"></i></a>
+            </div>
+        </form>
+    </div>
+</nav>
